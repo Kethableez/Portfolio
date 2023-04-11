@@ -1,0 +1,19 @@
+.viewContainer {
+  display: flex;
+  padding-inline: 184px 64px;
+  padding-top: 120px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.viewsContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}

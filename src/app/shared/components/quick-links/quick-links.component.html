@@ -1,0 +1,7 @@
+<div class="quickLinksContainer">
+  <div class="quickLink" *ngFor="let link of quickLinks">
+    <a [href]="link.url" target="_blank">
+      <ktbz-icon [name]="link.icon"></ktbz-icon>
+    </a>
+  </div>
+</div>

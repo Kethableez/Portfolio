@@ -1,0 +1,15 @@
+.skillsGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  // justify-content: space-evenly;
+}
+
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}

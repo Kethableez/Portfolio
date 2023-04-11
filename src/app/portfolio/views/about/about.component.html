@@ -1,0 +1,21 @@
+<div class="viewContainer">
+  <h1 class="prim">{{ "About.Header" | translate }}</h1>
+  <p class="paragraph">
+    {{ "About.Paragraph" | translate }}
+  </p>
+
+  <h1 class="prim">{{ "About.Skills.Header" | translate }}</h1>
+  <div class="skillsWrapper">
+    <div class="skillsSelector">
+      <ktbz-item-selector
+        [items]="selectorItems"
+        (onSelectedValue)="handleSkillGroupSelected($event)"
+      ></ktbz-item-selector>
+    </div>
+    <div class="skillsContainer">
+      <ktbz-skills-container
+        [skillGroupSelector]="skillGroupSelector"
+      ></ktbz-skills-container>
+    </div>
+  </div>
+</div>

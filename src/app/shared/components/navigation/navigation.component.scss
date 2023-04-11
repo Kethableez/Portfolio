@@ -1,0 +1,62 @@
+@use "../../../../assets/styles/variables";
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 36px 72px;
+  justify-content: space-between;
+}
+
+.navigationItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: variables.$white;
+}
+
+span.item {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px; //change to 28px
+  cursor: pointer;
+  &::after {
+    transition: 0.2s ease;
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
+    transform: translateX(50%);
+    content: "";
+    height: 3px;
+    width: 0px;
+  }
+
+  &:hover {
+    &::after {
+      width: 30px;
+      background-color: variables.$white;
+    }
+  }
+
+  &:active {
+    &::after {
+      background-color: variables.$primary;
+    }
+  }
+}
+
+.logo {
+  height: 48px;
+}
+
+.icon {
+  cursor: pointer;
+  height: 32px;
+  border-radius: 10px;
+}

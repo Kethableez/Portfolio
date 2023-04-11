@@ -1,0 +1,12 @@
+<nav class="navigation">
+  <img class="logo" src="../../../../assets/img/logo.png" />
+
+  <div class="navigationItems">
+    <span class="item" *ngFor="let route of navigationRoutes">
+      <a [routerLink]="[route.path]" [fragment]="route.fragment">
+        {{ route.displayValue | translate }}</a
+      >
+    </span>
+    <ktbz-language-selector></ktbz-language-selector>
+  </div>
+</nav>

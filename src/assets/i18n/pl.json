@@ -1,0 +1,61 @@
+{
+  "Navigation": {
+    "About": "O mnie",
+    "ExperienceEducation": "Doświadczenie i edukacja",
+    "Projects": "Projekty",
+    "Contact": "Kontakt",
+    "Resume": "CV"
+  },
+  "Greetings": {
+    "Greeting": "Cześć👋, jestem",
+    "FullName": "Amadeusz Janiszyn",
+    "Position": "Fullstack Developer!"
+  },
+  "About": {
+    "Header": "O mnie",
+    "Paragraph": "...",
+    "Skills": {
+      "Selector": {
+        "Programming": "Programowanie",
+        "Frameworks": "Frameworki",
+        "Databases": "Bazy Danych",
+        "Tools": "Narzędzia",
+        "Languages": "Języki",
+        "Other": "Inne"
+      },
+
+      "Header": "Moje umiejętności",
+      "Typescript": "TypeScript",
+      "Python": "Python",
+      "Cpp": "C++",
+      "Latex": "LaTeX",
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "Sass": "Sass",
+      "Angular": "Angular",
+      "NodeJS": "Node JS",
+      "ExpressJS": "Express JS",
+      "NestJS": "Nest JS",
+      "MongoDB": "MongoDB",
+      "MySQL": "MySQL",
+      "VSCode": "VS Code",
+      "Neovim": "Neovim",
+      "Git": "Git",
+      "Docker": "Docker",
+      "Nginx": "Nginx",
+      "Jira": "Jira",
+      "RabbitMQ": "RabbitMQ",
+      "NgRX": "NgRX",
+      "RxJS": "RxJS",
+      "Linux": "Linux",
+      "Figma": "Figma",
+      "English": "Angielski C1",
+      "German": "Niemiecki A1",
+      "Russian": "Rosyjski A1",
+      "FunctionalProgramming": "Programowanie Funkcyjne",
+      "TeamLeading": "Kierowanie zespołem",
+      "TeamWork": "Praca w zespole",
+      "Scrum": "Metodyka Scrum"
+    }
+  }
+}

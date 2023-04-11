@@ -1,0 +1,43 @@
+@use "../typography";
+@use "../variables";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+h1 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.prim {
+  color: variables.$primary;
+}
+
+.wht {
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.it {
+  font-style: italic;
+}
+
+.gry {
+  color: #525252;
+}

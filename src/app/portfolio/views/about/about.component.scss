@@ -1,0 +1,24 @@
+.viewContainer {
+  flex-direction: column;
+}
+
+.paragraph {
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+}
+
+.skillsWrapper {
+  align-items: center;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsContainer {
+  width: 70%;
+}
+
+.skillsSelector {
+  width: 30%;
+}

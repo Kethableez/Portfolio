@@ -1,0 +1,60 @@
+{
+  "Navigation": {
+    "About": "About",
+    "ExperienceEducation": "Experience & Education",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "Resume": "Resume"
+  },
+  "Greetings": {
+    "Greeting": "Hi👋, I am",
+    "FullName": "Amadeusz Janiszyn",
+    "Position": "Fullstack Developer!"
+  },
+  "About": {
+    "Header": "About me",
+    "Paragraph": "You are a skilled professional frontend developer with a passion for creating user-friendly and visually appealing web applications. In your free time, you work as a full-stack developer, constantly expanding your knowledge and capabilities. You are particularly interested in the exciting fields of machine learning and web security, always seeking to deepen your understanding and apply this knowledge to your work. Your dedication and curiosity make you a valuable asset to any team or project.",
+    "Skills": {
+      "Selector": {
+        "Programming": "Programming",
+        "Frameworks": "Frameworks",
+        "Databases": "Databases",
+        "Tools": "Tools",
+        "Languages": "Languages",
+        "Other": "Other"
+      },
+      "Header": "My Skills",
+      "Typescript": "TypeScript",
+      "Python": "Python",
+      "Cpp": "C++",
+      "Latex": "LaTeX",
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "Sass": "Sass",
+      "Angular": "Angular",
+      "NodeJS": "Node JS",
+      "ExpressJS": "Express JS",
+      "NestJS": "Nest JS",
+      "MongoDB": "MongoDB",
+      "MySQL": "MySQL",
+      "VSCode": "VS Code",
+      "Neovim": "Neovim",
+      "Git": "Git",
+      "Docker": "Docker",
+      "Nginx": "Nginx",
+      "Jira": "Jira",
+      "RabbitMQ": "RabbitMQ",
+      "NgRX": "NgRX",
+      "RxJS": "RxJS",
+      "Linux": "Linux",
+      "Figma": "Figma",
+      "English": "English C1",
+      "German": "German A1",
+      "Russian": "Russian A1",
+      "FunctionalProgramming": "Functional Programming",
+      "TeamLeading": "Team Leading",
+      "TeamWork": "Team Work",
+      "Scrum": "Scrum Methodology"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@use "../../assets/styles/variables";
+
+.background {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100dvh;
+  background-color: variables.$black-100;
+}
+
+.scribble {
+  background-image: url("../../assets/img/scribble.png");
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: -2;
+  position: absolute;
+}
+
+.noise {
+  background-image: url("../../assets/img/noise.png");
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: -3;
+  position: absolute;
+}
+
+ktbz-quick-links {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+ktbz-navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ktbz-greetings,
+ktbz-about,
+ktbz-experience-education {
+  display: flex;
+  // flex-grow: 1;
+  height: 100dvh;
+}

@@ -1,0 +1,23 @@
+.viewContainer {
+  flex-direction: row;
+  align-items: end;
+}
+
+.col-header {
+  // transform: translateX(120px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.col-img {
+  background-image: url("../../../../assets/img/me.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 50%;
+  height: 100%;
+}

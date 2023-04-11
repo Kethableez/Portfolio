@@ -1,0 +1,6 @@
+<div class="skillsGrid">
+  <div class="skillsItem" *ngFor="let skill of skillsGroup">
+    <ktbz-icon [name]="skill.icon"></ktbz-icon>
+    <label> {{ "About.Skills." + skill.name | translate }}</label>
+  </div>
+</div>
