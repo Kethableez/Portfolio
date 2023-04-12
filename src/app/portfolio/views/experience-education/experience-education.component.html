@@ -1,1 +1,12 @@
-<div class="viewContainer">asd</div>
+<div class="viewContainer">
+  <h1 class="prim">Doświadczenie</h1>
+  <ktbz-rich-content [data]="experienceData"></ktbz-rich-content>
+  <h1 class="prim">Edukacja</h1>
+  <div class="row">
+    <ktbz-rich-content
+      *ngFor="let edu of educationData"
+      [data]="edu"
+    ></ktbz-rich-content>
+  </div>
+  <ktbz-rich-content></ktbz-rich-content>
+</div>

@@ -1,0 +1,39 @@
+<div class="richContentContainer">
+  <img *ngIf="data.image" class="contentImage" [src]="data.image" />
+  <header class="contentHeader">
+    <div class="contentHeaderWrapper" *ngIf="data.headers as headers">
+      <h3 class="contentHeader">{{ headers.main }}</h3>
+      <h4 *ngIf="headers.sub" class="contentSubheader">{{ headers.sub }}</h4>
+      <h5 *ngIf="headers.line" class="contentHeaderLine">{{ headers.line }}</h5>
+    </div>
+    <span *ngIf="data.dates" class="contentDates">
+      {{ data.dates.from | date : "MM/YYYY" }} -
+      <ng-container *ngIf="data.dates.to === 'current'; else endDate">
+        {{ data.dates.to }}</ng-container
+      >
+      <ng-template #endDate>
+        {{ data.dates.to | date : "MM/YYYY" }}
+      </ng-template>
+    </span>
+    <span *ngIf="data.date" class="contentDates">
+      {{ data.date | date : "MM/YYYY" }}
+    </span>
+  </header>
+  <section
+    class="contentKeyValue"
+    *ngIf="data.sections && data.sections.keyValueItems as keyValueItems"
+  >
+    <div class="contentRow" *ngFor="let item of keyValueItems">
+      <span class="contentKey"> {{ item.key }}:</span>
+      <span class="contentValue"> {{ item.value }}</span>
+    </div>
+  </section>
+  <section class="contentSection" *ngIf="data.sections">
+    <p *ngIf="data.sections.paragraph" class="contentParagraph">
+      {{ data.sections.paragraph }}
+    </p>
+    <ul *ngIf="data.sections.list" class="contentList">
+      <li *ngFor="let item of data.sections.list">{{ item }}</li>
+    </ul>
+  </section>
+</div>

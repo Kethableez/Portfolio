@@ -1,0 +1,71 @@
+.richContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+img.contentImage {
+  height: 80px;
+  object-fit: contain;
+  object-position: left;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h3.contentHeader {
+  font-size: 28px;
+  margin: 0;
+}
+
+h4.contentSubheader {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 400;
+}
+
+h5.contentHeaderLine {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.contentDates {
+  font-style: italic;
+}
+
+.contentKeyValue {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.contentKey {
+  width: 20%;
+  font-weight: 700;
+}
+
+.contentValue {
+  font-weight: 400;
+  width: 60%;
+}
+
+section.contentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+p.contentParagraph,
+ul.contentList,
+li {
+  margin: 0;
+  font-size: 20px;
+}

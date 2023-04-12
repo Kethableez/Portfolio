@@ -6,6 +6,7 @@ import { NavigationModule } from './components/navigation/navigation.module';
 import { QuickLinksModule } from './components/quick-links/quick-links.module';
 import { TranslateModule } from '@ngx-translate/core';
 import { SkillsContainerModule } from './components/skills-container/skills-container.module';
+import { RichContentModule } from './components/rich-content/rich-content.module';
 
 @NgModule({
   declarations: [],
@@ -17,6 +18,7 @@ import { SkillsContainerModule } from './components/skills-container/skills-cont
     TranslateModule,
     CommonModule,
     SkillsContainerModule,
+    RichContentModule,
   ],
   exports: [
     ItemSelectorModule,
@@ -24,6 +26,7 @@ import { SkillsContainerModule } from './components/skills-container/skills-cont
     IconModule,
     QuickLinksModule,
     SkillsContainerModule,
+    RichContentModule,
   ],
 })
 export class SharedModule {}
