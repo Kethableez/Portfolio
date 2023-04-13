@@ -1,0 +1,30 @@
+.viewContainer {
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+}
+
+p {
+  font-size: 28px;
+  width: 60%;
+}
+
+footer {
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url("./../../../../assets/img/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom -50px center;
+
+  span {
+    margin-bottom: 30px;
+  }
+}

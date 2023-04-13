@@ -13,6 +13,7 @@ img.contentImage {
 .contentHeader {
   display: flex;
   flex-direction: row;
+  gap: 24px;
   justify-content: space-between;
 }
 
@@ -55,6 +56,7 @@ h5.contentHeaderLine {
 .contentValue {
   font-weight: 400;
   width: 60%;
+  text-align: justify;
 }
 
 section.contentSection {
@@ -66,6 +68,7 @@ section.contentSection {
 p.contentParagraph,
 ul.contentList,
 li {
+  text-align: justify;
   margin: 0;
   font-size: 20px;
 }

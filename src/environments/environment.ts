@@ -22,12 +22,12 @@ const routes = [
         displayValue: 'Navigation.About',
       },
       {
-        value: 'experience-education',
-        displayValue: 'Navigation.ExperienceEducation',
+        value: 'education-certificates',
+        displayValue: 'Navigation.EducationCertificates',
       },
       {
-        value: 'projects',
-        displayValue: 'Navigation.Projects',
+        value: 'experience-projects',
+        displayValue: 'Navigation.ExperienceProjects',
       },
       {
         value: 'contact',

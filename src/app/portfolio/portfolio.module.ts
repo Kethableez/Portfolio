@@ -8,6 +8,9 @@ import { AboutComponent } from './views/about/about.component';
 import { ExperienceEducationComponent } from './views/experience-education/experience-education.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { GreetingsComponent } from './views/greetings/greetings.component';
+import { EducationCertificatesComponent } from './views/education-certificates/education-certificates.component';
+import { ExperienceProjectsComponent } from './views/experience-projects/experience-projects.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { GreetingsComponent } from './views/greetings/greetings.component';
     AboutComponent,
     ExperienceEducationComponent,
     GreetingsComponent,
+    EducationCertificatesComponent,
+    ExperienceProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,

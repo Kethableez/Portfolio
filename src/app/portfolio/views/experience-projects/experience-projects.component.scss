@@ -2,15 +2,14 @@
   flex-direction: column;
 }
 
-ktbz-rich-content {
-  width: 30%;
-  flex-shrink: 0;
-}
-
 .row {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  // justify-content: space-between;
+  gap: 48px;
+}
+
+ktbz-rich-content {
+  width: 30%;
 }

@@ -1,0 +1,10 @@
+<div class="scrollableContainer">
+  <ktbz-rich-content
+    [ngClass]="getClass(i)"
+    *ngFor="let data of scrollableData; let i = index"
+    [data]="data"
+  ></ktbz-rich-content>
+</div>
+<button (click)="prev()">prev</button>
+<button (click)="next()">next</button>
+{{ currentIndex }}

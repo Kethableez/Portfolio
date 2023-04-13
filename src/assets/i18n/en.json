@@ -1,13 +1,13 @@
 {
   "Navigation": {
     "About": "About",
-    "ExperienceEducation": "Experience & Education",
-    "Projects": "Projects",
+    "EducationCertificates": "Education & certificates",
+    "ExperienceProjects": "Experience & projects",
     "Contact": "Contact",
     "Resume": "Resume"
   },
   "Greetings": {
-    "Greeting": "Hi👋, I am",
+    "Greeting": "Hi 👋, I am",
     "FullName": "Amadeusz Janiszyn",
     "Position": "Fullstack Developer!"
   },

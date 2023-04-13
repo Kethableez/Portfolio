@@ -1,0 +1,17 @@
+<div class="viewContainer">
+  <h1 class="prim">Edukacja</h1>
+  <div class="row">
+    <ktbz-rich-content
+      *ngFor="let education of educationData"
+      [data]="education"
+    ></ktbz-rich-content>
+  </div>
+
+  <h1 class="prim">Certyfikaty</h1>
+  <div class="row">
+    <ktbz-rich-content
+      *ngFor="let certificate of certificatesData"
+      [data]="certificate"
+    ></ktbz-rich-content>
+  </div>
+</div>
