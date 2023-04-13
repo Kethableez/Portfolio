@@ -1,7 +1,8 @@
 <div class="scrollableContainer">
   <ktbz-rich-content
-    [ngClass]="getClass(i)"
-    *ngFor="let data of scrollableData; let i = index"
+    [@contentAnim]
+    [ngClass]="getStyle(i)"
+    *ngFor="let data of data; let i = index"
     [data]="data"
   ></ktbz-rich-content>
 </div>

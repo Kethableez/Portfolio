@@ -1,20 +1,15 @@
 <div class="selector">
-  <span
+  <!-- <span
     [ngClass]="getClass(item)"
     (click)="select(item)"
     *ngFor="let item of items"
+  > -->
+  <span
+    [ngClass]="getClass(item)"
+    [@selectorAnim]
+    (click)="sel(item)"
+    *ngFor="let item of displayItems"
   >
     {{ "About.Skills.Selector." + item.displayValue | translate }}</span
   >
-  <!-- <span
-    [ngClass]="item.style"
-    (click)="select(item)"
-    *ngFor="let item of previous"
-  >
-    {{ item.displayValue }}</span
-  >
-  <span [ngClass]="selected.style"> {{ selected.displayValue }}</span>
-  <span [ngClass]="item.style" (click)="select(item)" *ngFor="let item of next">
-    {{ item.displayValue }}</span
-  > -->
 </div>

@@ -1,18 +1,18 @@
 .scrollableContainer {
   display: flex;
   flex-direction: row;
-  // gap: 40px;
+  gap: 40px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 ktbz-rich-content {
   transform-origin: top center;
-  // transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   width: 30%;
   flex-shrink: 0;
 }
 
-ktbz-rich-content.selected {
-}
 ktbz-rich-content.dimmed-20 {
   transform: scale(0.9);
   opacity: 0.8;
@@ -20,12 +20,4 @@ ktbz-rich-content.dimmed-20 {
 ktbz-rich-content.dimmed-40 {
   transform: scale(0.8);
   opacity: 0.6;
-}
-
-ktbz-rich-content.hidden {
-  transition: none;
-  transform: scale(0);
-  opacity: 0;
-  width: 0;
-  height: 0;
 }
